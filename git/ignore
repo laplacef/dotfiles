@@ -1,0 +1,6 @@
+# Machine-wide excludes, installed to ~/.config/git/ignore.
+
+.DS_Store
+Thumbs.db
+*.swp
+*~

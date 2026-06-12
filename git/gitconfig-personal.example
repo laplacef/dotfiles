@@ -1,0 +1,6 @@
+# Copy to ~/.gitconfig-personal and fill in.
+
+[user]
+	name = Your Name
+	email = 12345678+username@users.noreply.github.com
+	; signingkey = ABCDEF1234567890
