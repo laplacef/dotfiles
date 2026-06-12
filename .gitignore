@@ -1,0 +1,14 @@
+# Secrets, never commit
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
