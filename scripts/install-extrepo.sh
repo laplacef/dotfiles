@@ -17,7 +17,6 @@ command -v extrepo >/dev/null 2>&1 || { sudo apt update && sudo apt install -y e
 # extrepo_name|apt_package_name (the two sometimes diverge)
 APPS=(
   "mise|mise"
-  "uv|uv"
   "github-cli|gh"
 )
 
