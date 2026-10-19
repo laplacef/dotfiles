@@ -4,9 +4,9 @@
 
 | Version | Supported |
 |---------|-----------|
-| latest  | Yes       |
+| `main`  | Yes       |
 
-Only the latest release receives security patches.
+Only the latest commit on `main` is supported; there are no versioned releases.
 
 ## Reporting a Vulnerability
 
