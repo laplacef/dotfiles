@@ -25,6 +25,7 @@ sudo apt update && sudo apt install -y \
   bridge-utils \
   virt-manager \
   mpv \
+  ubuntu-restricted-addons \
   libreoffice \
   extrepo
 
