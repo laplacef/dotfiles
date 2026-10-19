@@ -26,7 +26,7 @@ link_file() {
     log "Already linked: $dst"
     return 0
   fi
-  if [[ -e "$dst" ]]; then
+  if [[ -e "$dst" || -L "$dst" ]]; then
     if confirm "$dst exists, back it up to ${dst}.bak and replace?"; then
       mv "$dst" "${dst}.bak"
     else
